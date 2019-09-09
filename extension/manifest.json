@@ -16,7 +16,7 @@
     "default_panel": "sidebar/panel.html"
   },
 
-  "permissions": ["storage", "tabs", "<all_urls>"],
+  "permissions": ["tabs", "<all_urls>"],
 
   "commands": {
     "_execute_sidebar_action": {

@@ -10,3 +10,7 @@ body {
   font: caption;
   background-color: #F4F7F8;
 }
+
+.container {
+  padding-top: 10px;
+}
