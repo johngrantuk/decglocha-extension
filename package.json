@@ -1,0 +1,15 @@
+{
+  "name": "decglocha",
+  "version": "1.0.0",
+  "description": "Decentralised Global Chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JG",
+  "license": "ISC",
+  "dependencies": {
+    "ethjs": "^0.4.0",
+    "metamask-extension-provider": "^1.1.1"
+  }
+}

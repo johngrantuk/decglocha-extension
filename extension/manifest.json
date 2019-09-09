@@ -1,0 +1,30 @@
+{
+
+  "manifest_version": 2,
+  "name": "Decentralised Global Chat",
+  "description": "Displays a sidebar that lets you chat & trade using decentralised tech.",
+  "version": "1.0",
+  "applications": {
+    "gecko": {
+      "strict_min_version": "54.0a1"
+    }
+  },
+
+  "sidebar_action": {
+    "default_icon": "icons/star.png",
+    "default_title" : "Deglocha",
+    "default_panel": "sidebar/panel.html"
+  },
+
+  "permissions": ["storage", "tabs", "<all_urls>"],
+
+  "commands": {
+    "_execute_sidebar_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y"
+      }
+    }
+  },
+
+  "content_security_policy": "script-src 'self' https://cdn.airswap.io https://unpkg.com https://code.jquery.com https://cdnjs.cloudflare.com https://stackpath.bootstrapcdn.com https://stackpath.bootstrapcdn.com;  object-src 'self'"
+}
