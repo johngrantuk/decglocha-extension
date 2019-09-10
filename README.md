@@ -2,7 +2,7 @@
 
 This browser extension/add-on allows any webpage to have decentralised chat and trade functions.
 
-Animated gif
+![Demo Gif](Decglocha.gif)
 
 ## How To Install The Extension
 
