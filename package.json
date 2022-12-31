@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "ethjs": "^0.4.0",
-    "metamask-extension-provider": "^1.1.1"
+    "metamask-extension-provider": "^3.0.0"
   }
 }
